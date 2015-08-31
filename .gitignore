@@ -3,3 +3,13 @@
 /.idea
 
 /target
+/classes
+
+#Gradle
+.gradletasknamecache
+.gradle/
+/build
+/gradle
+/bin
+
+gradlew*

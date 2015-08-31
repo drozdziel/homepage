@@ -1,9 +1,9 @@
-package com.drozdziel.homepage.domain;
+package com.drozdziel.homepage.employment;
 
+import com.drozdziel.homepage.utils.EntityBase;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * Created by Piotr Droździel on 7/26/15.
@@ -11,5 +11,5 @@ import lombok.NoArgsConstructor;
 @Data
 @Builder
 @AllArgsConstructor
-public class Course extends EntityBase {
+public class Employment extends EntityBase {
 }

@@ -1,8 +1,12 @@
-package com.drozdziel.homepage.domain;
+package com.drozdziel.homepage.resume;
 
+import com.drozdziel.homepage.education.Course;
+import com.drozdziel.homepage.education.Education;
+import com.drozdziel.homepage.employment.Employment;
+import com.drozdziel.homepage.skill.Skill;
+import com.drozdziel.homepage.utils.EntityBase;
 import lombok.*;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.CreatedDate;
 
 import java.util.Date;
 import java.util.List;
@@ -28,5 +32,5 @@ public class Resume extends EntityBase {
 
     private List<Course> courses;
 
-    private List<SkillGroup> skillGroups;
+    private List<Skill> skillGroups;
 }

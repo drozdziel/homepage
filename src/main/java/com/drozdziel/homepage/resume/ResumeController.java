@@ -1,7 +1,5 @@
-package com.drozdziel.homepage.web.controller;
+package com.drozdziel.homepage.resume;
 
-import com.drozdziel.homepage.domain.Resume;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +13,6 @@ public class ResumeController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String get() {
-        return "ITS ALIVE!!!";
+        return "ITS ALIVE BIATCH!!!";
     }
 }

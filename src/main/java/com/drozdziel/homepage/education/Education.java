@@ -1,9 +1,9 @@
-package com.drozdziel.homepage.domain;
+package com.drozdziel.homepage.education;
 
+import com.drozdziel.homepage.utils.EntityBase;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * Created by Piotr Droździel on 7/26/15.

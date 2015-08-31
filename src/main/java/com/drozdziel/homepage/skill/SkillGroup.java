@@ -1,5 +1,6 @@
-package com.drozdziel.homepage.domain;
+package com.drozdziel.homepage.skill;
 
+import com.drozdziel.homepage.utils.EntityBase;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

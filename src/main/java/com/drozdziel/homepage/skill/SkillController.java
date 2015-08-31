@@ -1,6 +1,6 @@
-package com.drozdziel.homepage.web.controller;
+package com.drozdziel.homepage.skill;
 
-import com.drozdziel.homepage.repository.SkillRepository;
+import com.drozdziel.homepage.skill.SkillRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

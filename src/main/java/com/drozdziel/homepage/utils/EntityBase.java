@@ -1,4 +1,4 @@
-package com.drozdziel.homepage.domain;
+package com.drozdziel.homepage.utils;
 
 import lombok.Data;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;

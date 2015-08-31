@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @EnableJpaAuditing
 //@EntityScan(basePackages = "com.drozdziel.homepage.domain")
-@EnableJpaRepositories(basePackages = "com.drozdziel.homepage.repository")
+@EnableJpaRepositories
 public class MainConfig {
     public static void main(String[] args) {
         SpringApplication.run(MainConfig.class, args);

@@ -1,6 +1,6 @@
-package com.drozdziel.homepage.repository;
+package com.drozdziel.homepage.skill;
 
-import com.drozdziel.homepage.domain.Skill;
+import com.drozdziel.homepage.skill.Skill;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
