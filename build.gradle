@@ -59,7 +59,7 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
 }
 
-//so that you have names of parameters in runtime (helpfull in Spring MVC)
+//so that you have names of parameters in runtime (helpful in Spring MVC)
 compileJava {
     options.fork = true
     options.incremental = true
